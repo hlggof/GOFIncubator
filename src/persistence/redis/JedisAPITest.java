@@ -10,9 +10,9 @@ package persistence.redis;
 
 import redis.clients.jedis.Jedis;
 
-public class RedisAPITest {
+public class JedisAPITest {
 
-	public void test1() {
+	public void test() {
 		Jedis redis = new Jedis("192.168.10.64", 6379);// 连接redis
 		redis.auth("redis");// 验证密码
 		/* ----------------------------------------------------------------------------------------------------------- */
@@ -114,8 +114,8 @@ public class RedisAPITest {
 	 */
 	public static void main(String[] args) {
 
-		RedisAPITest redisTest = new RedisAPITest();
-		redisTest.test1();
+		JedisAPITest redisTest = new JedisAPITest();
+		redisTest.test();
 	}
 
 }
