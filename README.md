@@ -1,4 +1,4 @@
 GOFIncubator
 ============
 
-the place generate new features for soup
+the place practice and incubate new features for soup
